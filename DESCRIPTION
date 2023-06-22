@@ -1,0 +1,28 @@
+Package: macamseq
+Type: Package
+Title: A subset of the R package macam for DNA sequence analysis
+Version: 0.1.4
+Author: Who wrote it
+Maintainer: Masayuki Ushio <ong8181@gmail.com>
+Description: macamesq contains a subset of the R functions implemented in macam.
+    The functions are mainly for DNA sequence analysis.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.1
+Imports: 
+    Biostrings,
+    dplyr,
+    ggplot2,
+    ggsci,
+    iNEXT,
+    magrittr,
+    methods,
+    phyloseq,
+    purrr,
+    ShortRead,
+    stats,
+    vegan,
+Depends: 
+    R (>= 2.10)
