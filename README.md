@@ -13,11 +13,14 @@ You can install the development version of macamseq from [GitHub](https://github
 ``` r
 # install.packages("remotes")
 remotes::install_github("ong8181/macamseq")
+
+# Install with vignettes
+remotes::install_github("ong8181/macamseq", build_vignettes = TRUE, force = TRUE)
 ```
 
 ## Manual
 
-see [macam](https://github.com/ong8181/macam) for detail.
+see [macam](https://github.com/ong8181/macamseq) for detail.
 
 ### Sequence analysis
 - `AllOrients()`: List up all orientations of primer sequence (from [DADA2 tutrial](https://benjjneb.github.io/dada2/ITS_workflow.html)).

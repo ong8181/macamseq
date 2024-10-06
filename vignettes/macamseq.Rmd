@@ -17,15 +17,15 @@ knitr::opts_chunk$set(
 # Installation
 ```{r, message=FALSE, eval=FALSE}
 #install.packages("remotes")
-#remotes::install_github("ong8181/macam")
-remotes::install_github("ong8181/macam", build_vignettes = TRUE, force = TRUE)
+#remotes::install_github("ong8181/macamseq")
+remotes::install_github("ong8181/macamseq", build_vignettes = TRUE, force = TRUE)
 ```
 
 # Load library
 ```{r, eval=FALSE}
-library(macam)
-packageVersion("macam")
-browseVignettes("macam")
+library(macamseq)
+packageVersion("macamseq")
+browseVignettes("macamseq")
 ```
 
 # Quick tutrials
