@@ -16,6 +16,7 @@ Imports:
     rstudioapi,
     dplyr,
     stringr,
+    scales,
     ggplot2,
     ggsci,
     iNEXT,
