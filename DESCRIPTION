@@ -1,7 +1,7 @@
 Package: macamseq
 Type: Package
 Title: A subset of the R package macam for DNA sequence analysis
-Version: 0.1.5
+Version: 0.1.8
 Author: Masayuki Ushio
 Maintainer: Masayuki Ushio <ong8181@gmail.com>
 Description: macamesq contains a subset of the R functions implemented in macam.
